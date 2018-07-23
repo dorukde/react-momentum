@@ -1,8 +1,8 @@
 {
-  "name": "read-progress",
+  "name": "react-momentum",
   "version": "0.1.0",
   "description": "A reading progress component for React",
-  "main": "./build/index.js",
+  "main": "./dist/index.js",
   "author": "theomjones@gmail.com",
   "license": "MIT",
   "private": false,
