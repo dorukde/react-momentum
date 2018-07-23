@@ -1,6 +1,6 @@
 {
   "name": "react-momentum",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A reading progress component for React",
   "main": "./dist/index.js",
   "author": "theomjones@gmail.com",
@@ -33,5 +33,8 @@
   "peerDependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
+  },
+  "dependencies": {
+    "react-momentum": "^0.1.1"
   }
 }
