@@ -1,11 +1,11 @@
-# A read progress bar component for react.
+# React Momentum
 
-Gives you a reading progress bar for things like blog posts and articles.
+### A read progress bar component for react.
 
 ## Installation
 
 ```shell
-npm i react-read-progess
+npm i react-momentum
 ```
 
 ## Usage
@@ -13,16 +13,18 @@ npm i react-read-progess
 Just wrap your content in the component. All props are optional.
 
 ```jsx
+import Momentum from 'react-momentum'
+
 //                                                              || Defaults
 
-<ReadProgress
+<Momentum
   height={2} // Bar height                                      || 2
   duration={300} // animation duration (0) for none             || 300
   color="blue" // the color of the progress bar                 || #5b9aff
   completedColor="green" // the color of the bar on complete    || #40ce80
-  easing="ease-out" // easing function                          || 'ease-in-out'
-  position="bottom" // can either be 'top' or 'bottom'          || 'bottom'
+  easing="ease-out" // easing function                          || 'ease-out'
+  position="bottom" // can either be 'top' or 'bottom'          || 'top'
 >
   <p>Some content here...</p>
-</ReadProgress>
+</Momentum>
 ```
