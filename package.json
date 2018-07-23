@@ -1,6 +1,6 @@
 {
   "name": "react-momentum",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "A reading progress component for React",
   "main": "./dist/index.js",
   "author": {
