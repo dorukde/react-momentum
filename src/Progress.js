@@ -7,7 +7,7 @@ export default ({
   duration = 300,
   easing = "ease-out",
   position = "top",
-  completedColor = "#40ce80"
+  completedColor = "#40ce80",
   padding = "0 0 0 0"
 }) => (
   <div
@@ -21,8 +21,9 @@ export default ({
       position: "fixed",
       top: position === "top" ? 0 : "auto",
       left: 0,
-      bottom: position === "bottom" ? 0 : "auto"
-      padding: "0 0 0 0"
+      bottom: position === "bottom" ? 0 : "auto",
+      padding: 0 0 0 0,
+      opacity: 1
 
     }}
   />
