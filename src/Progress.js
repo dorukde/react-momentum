@@ -8,11 +8,12 @@ export default ({
   easing = "ease-out",
   position = "top",
   completedColor = "#40ce80"
+  padding = "0 0 0 0"
 }) => (
   <div
     style={{
       height,
-      width: width + "%",
+      width: "%",
       backgroundColor: width === 100 ? completedColor : color,
       transitionProperty: "all",
       transitionDuration: duration + "ms",
@@ -21,6 +22,8 @@ export default ({
       top: position === "top" ? 0 : "auto",
       left: 0,
       bottom: position === "bottom" ? 0 : "auto"
+      padding: "0 0 0 0"
+
     }}
   />
 );
