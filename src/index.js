@@ -65,7 +65,7 @@ export default class extends React.Component {
           easing={this.props.easing}
           completedColor={this.props.completedColor}
           padding={this.props.padding}
-          opacity+{this.props.opacity}
+          opacity={this.props.opacity}
         />
       </div>
     );
